@@ -1,0 +1,30 @@
+* {
+  list-style-type: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-image: url("/images/matt-botsford-OKLqGsCT8qs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  position: relative;
+}
+
+form input {
+  border-radius: 50px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 15px 30px;
+  width: 50vw;
+}
